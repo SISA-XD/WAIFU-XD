@@ -107,7 +107,7 @@ def approval():
     HENTAI="SISA"
     uuid=str(os.getuid()) + str(os.getlogin())
     key = "`".join(uuid)
-    ress=httpx.get("https://github.com/NAFIS-124/Paid/blob/main/Paid.txt").text
+    ress=httpx.get("https://github.com/SISA-BOT/SiSa-Back/blob/main/approve.txt").text
     if key in ress:
         NAFIS()
     else:
