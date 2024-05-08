@@ -103,8 +103,8 @@ def rimon4():
 #-------------approval-----------#
 import os,httpx
 def approval():
-    TEAM69="TEAM69+"
-    HENTAI="HENTAI"
+    TEAM69="WAIFU+"
+    HENTAI="SISA"
     uuid=str(os.getuid()) + str(os.getlogin())
     key = "`".join(uuid)
     ress=httpx.get("https://github.com/NAFIS-124/Paid/blob/main/Paid.txt").text
